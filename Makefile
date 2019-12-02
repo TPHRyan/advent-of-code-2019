@@ -1,4 +1,4 @@
-HSC=ghc -dynamic
+HSC=ghc -dynamic -i.. -hidir ./ -odir ./
 TARGET := $(shell ls | grep *.hs | sed -e 's/\.hs//')
 
 .PHONY: clean
