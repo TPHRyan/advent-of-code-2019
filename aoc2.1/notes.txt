@@ -1,0 +1,13 @@
+INTCODE SPEC
+
+Intcode uses variable-length RAM cartridges.
+It will error on invalid memory access or invalid opcode
+
+== REGISTERS ==
+PC: Program Counter
+
+
+== INSTRUCTIONS ==
+1: ADD [*n1] [*n2] [*dest]
+2: MUL [*n1] [*n2] [*dest]
+99: HALT
