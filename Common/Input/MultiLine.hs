@@ -1,4 +1,4 @@
-module Common 
+module Common.Input.MultiLine 
 ( parseIntegralInputFile
 , parseStringInputFile
 ) where

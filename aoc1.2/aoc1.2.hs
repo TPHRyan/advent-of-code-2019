@@ -1,4 +1,4 @@
-import Common (parseIntegralInputFile)
+import Common.Input.MultiLine (parseIntegralInputFile)
 import Data.List (foldl')
 
 findFuel :: Integral a => a -> a
