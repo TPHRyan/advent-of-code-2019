@@ -1,5 +1,5 @@
 HSC=ghc -dynamic -i.. -hidir ./ -odir ./
-TARGET := $(shell ls | grep *.hs | sed -e 's/\.hs//')
+TARGET := $(shell ls | grep aoc*.hs | sed -e 's/\.hs//')
 
 .PHONY: clean
 
